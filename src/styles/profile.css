@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #5b2c82;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  background-color: white;
+  margin: 40px auto;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 1200px;
+  overflow: hidden;
+}
+
+.left-panel {
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+  border-right: 1px solid #ddd;
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 100px;
+  border: 4px solid #8e44ad;
+}
+
+.name {
+  margin: 15px 0 5px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.email {
+  color: #666;
+}
+
+.middle-panel {
+  padding: 20px;
+  border-right: 1px solid #ddd;
+}
+
+.section-title {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.row {
+  display: flex;
+  gap: 15px;
+}
+
+.input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.save-btn {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #5b2c82;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.save-btn:hover {
+  background-color: #3e1a5f;
+}
+
+.right-panel {
+  padding: 20px;
+}
+
+.experience-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.experience-btn {
+  padding: 6px 12px;
+  border: 1px solid #aaa;
+  background-color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.experience-btn:hover {
+  background-color: #eee;
+}
